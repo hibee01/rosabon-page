@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100%;
+    margin: auto;
+}
+
+.rwandaful-img {
+    width: 100%;
+}
+
+.rwandaful-img767 {
+    display: none;
+}
+
+.container-rw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0.8rem 0;
+}
+
+.store {
+    width: 15%;
+}
+
+
+@media (max-width: 767px) {
+
+    div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .rwandaful-img {
+        display: none;
+    }
+    
+    .rwandaful-img767 {
+        width: 100%;
+        display: block;
+    }
+    
+}
